@@ -4,5 +4,24 @@ services:
     build: .
     container_name: us3rzer0-casino
     restart: always
+    expose:
+      - "3000"
+    networks:
+      - casinonet
+
+  nginx:
+    image: nginx:alpine
+    container_name: us3rzer0-nginx
+    restart: always
     ports:
-      - "3000:3000"
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - casino-site
+    networks:
+      - casinonet
+
+networks:
+  casinonet:
+    driver: bridge
