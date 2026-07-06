@@ -2,43 +2,47 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#0A0A0F', borderTop: '1px solid #2A2A3D' }} className="mt-20 py-12">
-      <div className="max-w-6xl mx-auto px-4">
+    <footer style={{ background: '#0A0F1E', borderTop: '2px solid #FF9900', marginTop: '80px' }}>
+      <div style={{ height: '4px', background: 'linear-gradient(90deg, #CC99FF, #99CCFF, #FFCC00, #FF9900)' }} />
+      <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-yellow-400 font-bold mb-3" style={{ fontFamily: 'Georgia, serif' }}>🎰 Us3rZer0 Casino</h3>
-            <p className="text-gray-500 text-sm">Your #1 guide to US sweepstakes casinos. Honest reviews, exclusive bonuses, and the latest no deposit codes.</p>
+            <div style={{ background: '#FF9900', borderRadius: '20px 0 0 20px', padding: '6px 16px 6px 12px', display: 'inline-block', marginBottom: '12px' }}>
+              <span style={{ fontFamily: 'Antonio, sans-serif', fontWeight: 700, fontSize: '16px', color: '#050810', letterSpacing: '0.15em' }}>USS ZER0</span>
+            </div>
+            <p style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#99CCFF', lineHeight: 1.8, letterSpacing: '0.05em' }}>
+              YOUR GUIDE TO US SWEEPSTAKES CASINOS. HONEST REVIEWS. EXCLUSIVE BONUSES.
+            </p>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-3 text-sm">Top Casinos</h4>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li><Link href="/casinos/chumba" className="hover:text-yellow-400">Chumba Casino</Link></li>
-              <li><Link href="/casinos/luckyland" className="hover:text-yellow-400">LuckyLand Slots</Link></li>
-              <li><Link href="/casinos/global-poker" className="hover:text-yellow-400">Global Poker</Link></li>
-              <li><Link href="/casinos/pulsz" className="hover:text-yellow-400">Pulsz Casino</Link></li>
+            <div style={{ fontFamily: 'Antonio, sans-serif', color: '#FF9900', letterSpacing: '0.15em', fontSize: '13px', marginBottom: '12px' }}>DATABASES</div>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {[['/', 'Home'], ['/casinos', 'Top Casinos'], ['/bonuses', 'Bonus Codes'], ['/blog', 'Captain Logs']].map(([href, label]) => (
+                <li key={href}><Link href={href} style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#99CCFF', textDecoration: 'none', letterSpacing: '0.05em' }}>{label}</Link></li>
+              ))}
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-3 text-sm">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li><Link href="/bonuses" className="hover:text-yellow-400">No Deposit Bonuses</Link></li>
-              <li><Link href="/sweepstakes" className="hover:text-yellow-400">How Sweepstakes Work</Link></li>
-              <li><Link href="/blog" className="hover:text-yellow-400">Casino Blog</Link></li>
-              <li><Link href="/states" className="hover:text-yellow-400">By State</Link></li>
+            <div style={{ fontFamily: 'Antonio, sans-serif', color: '#FF9900', letterSpacing: '0.15em', fontSize: '13px', marginBottom: '12px' }}>INTEL</div>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {[['/sweepstakes', 'Mission Briefing'], ['/blog/legal-states-2026', 'Sector Map'], ['/blog/how-to-win-real-money', 'Tactical Guide']].map(([href, label]) => (
+                <li key={href}><Link href={href} style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#99CCFF', textDecoration: 'none', letterSpacing: '0.05em' }}>{label}</Link></li>
+              ))}
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-3 text-sm">Legal</h4>
-            <ul className="space-y-2 text-sm text-gray-500">
-              <li><Link href="/disclaimer" className="hover:text-yellow-400">Disclaimer</Link></li>
-              <li><Link href="/privacy" className="hover:text-yellow-400">Privacy Policy</Link></li>
-              <li><Link href="/responsible" className="hover:text-yellow-400">Responsible Gaming</Link></li>
+            <div style={{ fontFamily: 'Antonio, sans-serif', color: '#FF9900', letterSpacing: '0.15em', fontSize: '13px', marginBottom: '12px' }}>REGULATIONS</div>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {[['/disclaimer', 'Disclaimer'], ['/responsible', 'Responsible Gaming']].map(([href, label]) => (
+                <li key={href}><Link href={href} style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#99CCFF', textDecoration: 'none', letterSpacing: '0.05em' }}>{label}</Link></li>
+              ))}
             </ul>
           </div>
         </div>
-        <div style={{ borderTop: '1px solid #2A2A3D' }} className="pt-6 text-center text-xs text-gray-600">
-          <p className="mb-2">⚠️ This site contains affiliate links. We may earn a commission at no cost to you. 18+ only. Sweepstakes casinos are available in most US states. Play responsibly.</p>
-          <p>© {new Date().getFullYear()} Us3rZer0 Casino. All rights reserved.</p>
+        <div style={{ borderTop: '1px solid #1A2A4A', paddingTop: '16px' }}>
+          <p style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#1A2A4A', letterSpacing: '0.08em', textAlign: 'center' }}>
+            THIS SITE CONTAINS AFFILIATE LINKS. COMMISSION EARNED AT NO COST TO YOU. 18+ ONLY. PLAY RESPONSIBLY. STARFLEET REGULATIONS APPLY.
+          </p>
         </div>
       </div>
     </footer>

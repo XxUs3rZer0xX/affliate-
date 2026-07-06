@@ -9,97 +9,128 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Best US Sweepstakes Casinos 2026 | No Purchase Needed | Us3rZer0</title>
-        <meta name="description" content="Find the best sweepstakes casinos in the USA. Claim free Sweep Coins, no deposit bonuses, and win real cash prizes. Legal in 45+ states." />
+        <title>USS Zer0 — Best US Sweepstakes Casinos 2026</title>
+        <meta name="description" content="Find the best sweepstakes casinos in the USA. Free Sweep Coins, no deposit bonuses, win real cash prizes. Legal in 45+ states." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Navbar />
 
-      {/* HERO */}
-      <section style={{ background: 'linear-gradient(180deg, #1A1A28 0%, #0A0A0F 100%)' }} className="py-20 px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          <span className="text-xs font-bold tracking-widest text-yellow-400 uppercase mb-4 block">🇺🇸 Legal in 45+ US States</span>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{ fontFamily: 'Georgia, serif', lineHeight: 1.2 }}>
-            The Best <span className="gold-gradient">Sweepstakes Casinos</span><br />in America — 2026
+      {/* HERO — LCARS style */}
+      <section className="lcars-hero" style={{ background: 'linear-gradient(180deg, #0A0F1E 0%, #050810 100%)', padding: '64px 16px 48px' }}>
+        <div style={{ position: 'relative', zIndex: 2, maxWidth: '900px', margin: '0 auto' }}>
+
+          {/* LCARS top chrome */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+            <div style={{ background: '#FF9900', borderRadius: '40px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+              <span style={{ fontSize: '28px' }}>🎰</span>
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ height: '4px', background: 'linear-gradient(90deg, #FF9900, #FFCC00, #99CCFF, transparent)', borderRadius: '2px', marginBottom: '6px' }} />
+              <div style={{ height: '2px', background: 'linear-gradient(90deg, #CC99FF, #33CCFF, transparent)', borderRadius: '1px' }} />
+            </div>
+            <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#FF9900', letterSpacing: '0.15em', textAlign: 'right', lineHeight: 1.8 }}>
+              <div>STARDATE 2026.186</div>
+              <div style={{ color: '#33CCFF' }}>SECTOR: 45 US STATES</div>
+            </div>
+          </div>
+
+          {/* Main headline */}
+          <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#33CCFF', letterSpacing: '0.3em', marginBottom: '12px' }}>
+            ◈ INCOMING TRANSMISSION FROM STARFLEET GAMING COMMAND ◈
+          </div>
+          <h1 style={{ fontFamily: 'Antonio, sans-serif', fontSize: 'clamp(32px, 6vw, 64px)', fontWeight: 700, letterSpacing: '0.08em', lineHeight: 1.1, marginBottom: '20px', textTransform: 'uppercase' }}>
+            <span style={{ color: '#FF9900' }}>BEST SWEEPSTAKES</span><br />
+            <span style={{ color: '#E8F4FF' }}>CASINOS IN THE</span><br />
+            <span style={{ color: '#33CCFF' }}>UNITED STATES 2026</span>
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-            Play real casino slots for free. Win real prizes. No purchase necessary, no gambling license required. 100% legal in most US states.
+          <p style={{ fontFamily: 'Exo 2, sans-serif', fontSize: '16px', color: '#99CCFF', maxWidth: '600px', lineHeight: 1.7, marginBottom: '32px' }}>
+            Play real casino slots for free. Win real prizes. No purchase necessary. 100% legal in most US states. Engage.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/casinos" className="btn-gold text-center">View Top Casinos →</Link>
-            <Link href="/bonuses" className="text-center py-3 px-6 rounded-md font-semibold"
-              style={{ background: '#2A2A3D', color: '#E8E8F0' }}>
-              No Deposit Bonuses
-            </Link>
+
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+            <Link href="/casinos" className="btn-lcars">VIEW DATABASE →</Link>
+            <Link href="/bonuses" className="btn-lcars btn-lcars-blue">BONUS TRANSMISSIONS</Link>
           </div>
         </div>
       </section>
 
-      {/* TRUST BADGES */}
-      <section className="py-6 px-4" style={{ background: '#12121A', borderBottom: '1px solid #2A2A3D' }}>
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      {/* Status readouts */}
+      <section style={{ background: '#0A0F1E', borderTop: '1px solid #1A2A4A', borderBottom: '1px solid #1A2A4A', padding: '16px' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px' }} className="md:grid-cols-4">
           {[
-            { icon: '✅', label: '100% Legal', sub: 'No gambling license needed' },
-            { icon: '🎁', label: 'Free to Play', sub: 'No purchase necessary' },
-            { icon: '💵', label: 'Real Prizes', sub: 'Redeem for cash & gift cards' },
-            { icon: '🔒', label: '45+ States', sub: 'Widest US coverage' },
-          ].map((b, i) => (
-            <div key={i} className="py-3">
-              <div className="text-2xl mb-1">{b.icon}</div>
-              <div className="text-white font-semibold text-sm">{b.label}</div>
-              <div className="text-gray-500 text-xs">{b.sub}</div>
+            { label: 'LEGAL STATUS', value: '✓ AUTHORIZED', color: '#33CCFF' },
+            { label: 'COST OF ENTRY', value: 'NO PURCHASE', color: '#FF9900' },
+            { label: 'PRIZE TYPE', value: 'REAL CASH', color: '#FFCC00' },
+            { label: 'SECTORS ACTIVE', value: '45+ STATES', color: '#CC99FF' },
+          ].map((item, i) => (
+            <div key={i} style={{ background: '#050810', border: '1px solid #1A2A4A', borderRadius: '4px', padding: '12px', textAlign: 'center' }}>
+              <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '9px', color: '#1A2A4A', letterSpacing: '0.2em', marginBottom: '4px' }}>{item.label}</div>
+              <div style={{ fontFamily: 'Antonio, sans-serif', fontSize: '14px', letterSpacing: '0.1em', color: item.color }}>{item.value}</div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* TOP CASINOS */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-white mb-3" style={{ fontFamily: 'Georgia, serif' }}>
-              🏆 Top Rated Sweepstakes Casinos
-            </h2>
-            <p className="text-gray-400">Ranked by bonus value, game selection, and payout speed</p>
+      {/* Casino Grid */}
+      <section style={{ padding: '48px 16px' }}>
+        <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
+
+          {/* Section header */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+            <div style={{ background: '#FF9900', borderRadius: '20px', padding: '6px 20px', fontFamily: 'Antonio, sans-serif', fontSize: '13px', letterSpacing: '0.2em', color: '#050810', fontWeight: 700 }}>
+              DATABASE
+            </div>
+            <div style={{ flex: 1, height: '2px', background: 'linear-gradient(90deg, #FF9900, transparent)' }} />
+            <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#99CCFF', letterSpacing: '0.15em' }}>
+              TOP RATED VESSELS
+            </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {casinos.map((casino) => (
-              <CasinoCard key={casino.id} casino={casino} />
-            ))}
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '16px' }}>
+            {casinos.map((casino) => <CasinoCard key={casino.id} casino={casino} />)}
           </div>
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
-      <section className="py-16 px-4" style={{ background: '#12121A' }}>
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-white text-center mb-10" style={{ fontFamily: 'Georgia, serif' }}>
-            How Sweepstakes Casinos Work
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {/* How it works */}
+      <section style={{ background: '#0A0F1E', borderTop: '1px solid #1A2A4A', padding: '48px 16px' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+            <div style={{ background: '#33CCFF', borderRadius: '20px', padding: '6px 20px', fontFamily: 'Antonio, sans-serif', fontSize: '13px', letterSpacing: '0.2em', color: '#050810', fontWeight: 700 }}>
+              MISSION BRIEFING
+            </div>
+            <div style={{ flex: 1, height: '2px', background: 'linear-gradient(90deg, #33CCFF, transparent)' }} />
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '16px' }}>
             {[
-              { step: '01', title: 'Sign Up Free', desc: 'Create an account in minutes. No credit card required. You get free coins just for joining.' },
-              { step: '02', title: 'Play Slots', desc: 'Use Gold Coins (fun play) or Sweeps Coins (redeemable). Spin slots from top providers.' },
-              { step: '03', title: 'Win Real Prizes', desc: 'Redeem your Sweeps Coins for cash via PayPal, bank transfer, or gift cards.' },
+              { step: '01', title: 'ENLIST', desc: 'Create a free account. No credit card required. Your complimentary Sweep Coins are credited immediately upon registration.' },
+              { step: '02', title: 'ENGAGE', desc: 'Use Gold Coins for exploration or Sweeps Coins for prize-eligible play. Access 1,000+ casino slots from top providers.' },
+              { step: '03', title: 'REDEEM', desc: 'Convert your Sweeps Coins to real cash via PayPal or bank transfer. Most missions complete within 24-72 hours.' },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl p-6" style={{ background: '#1A1A28', border: '1px solid #2A2A3D' }}>
-                <div className="text-yellow-400 font-bold text-sm mb-3">{s.step}</div>
-                <h3 className="text-white font-bold text-lg mb-2">{s.title}</h3>
-                <p className="text-gray-400 text-sm">{s.desc}</p>
+              <div key={s.step} style={{ background: '#050810', border: '1px solid #1A2A4A', borderLeft: '4px solid #33CCFF', borderRadius: '0 8px 8px 0', padding: '20px' }}>
+                <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#33CCFF', letterSpacing: '0.2em', marginBottom: '8px' }}>STEP {s.step}</div>
+                <div style={{ fontFamily: 'Antonio, sans-serif', fontSize: '18px', letterSpacing: '0.15em', color: '#E8F4FF', marginBottom: '8px' }}>{s.title}</div>
+                <p style={{ fontFamily: 'Exo 2, sans-serif', fontSize: '13px', color: '#99CCFF', lineHeight: 1.7 }}>{s.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* BONUS ALERT */}
-      <section className="py-12 px-4">
-        <div className="max-w-3xl mx-auto text-center rounded-2xl p-8"
-          style={{ background: 'linear-gradient(135deg, #1A1A28 0%, #2A1A3D 100%)', border: '1px solid #6C3FC9' }}>
-          <div className="text-3xl mb-3">🎁</div>
-          <h2 className="text-2xl font-bold text-white mb-3">No Deposit Bonus Codes — July 2026</h2>
-          <p className="text-gray-400 mb-6">Claim exclusive free Sweep Coins from our partner casinos. Updated weekly.</p>
-          <Link href="/bonuses" className="btn-gold">See All Bonus Codes →</Link>
+      {/* Bonus alert */}
+      <section style={{ padding: '48px 16px' }}>
+        <div style={{ maxWidth: '700px', margin: '0 auto', background: '#0A0F1E', border: '1px solid #CC99FF', borderLeft: '4px solid #CC99FF', borderRadius: '0 12px 12px 0', padding: '32px', textAlign: 'center' }}>
+          <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#CC99FF', letterSpacing: '0.3em', marginBottom: '12px' }}>
+            ◈ PRIORITY ONE TRANSMISSION ◈
+          </div>
+          <h2 style={{ fontFamily: 'Antonio, sans-serif', fontSize: '28px', letterSpacing: '0.12em', color: '#E8F4FF', marginBottom: '12px' }}>
+            BONUS CODES — JULY 2026
+          </h2>
+          <p style={{ fontFamily: 'Exo 2, sans-serif', fontSize: '14px', color: '#99CCFF', marginBottom: '24px' }}>
+            Claim exclusive free Sweep Coins from our partner vessels. Updated weekly.
+          </p>
+          <Link href="/bonuses" className="btn-lcars">ACCESS TRANSMISSIONS →</Link>
         </div>
       </section>
 
