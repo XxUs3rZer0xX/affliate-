@@ -1,0 +1,8 @@
+﻿node_modules/
+.next/
+out/
+.bun/
+.cache/
+*.log
+.env
+test.txt

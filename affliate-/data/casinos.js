@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // AFFILIATE LINKS — replace YOUR_REF_CODE with your actual affiliate IDs
 export const casinos = [
   {
@@ -118,55 +117,3 @@ export const casinos = [
 ]
 
 export const topCasinos = casinos.slice(0, 3)
-=======
-export const casinos = [
-  {
-    id: 'stake', name: 'Stake.us', emoji: '🔥', rating: 5, reviews: '3.1k',
-    bonus: '260,000 Gold Coins + 55 Stake Cash + 5% Rakeback',
-    isHot: true, isNew: false,
-    features: ['3,000+ slots and Stake Originals', 'Live dealer games available', 'Crash, Plinko and exclusive games', 'Available in most US states'],
-    link: 'https://stake.us/?c=us3rzer0',
-    reviewLink: '/casinos/stake',
-  },
-  {
-    id: 'mcluck', name: 'McLuck Casino', emoji: '🍀', rating: 5, reviews: '2.8k',
-    bonus: '57,500 Gold Coins + 27.5 FREE Sweeps Coins',
-    isHot: true, isNew: false,
-    features: ['1,300+ slots and live dealer tables', 'iOS and Android app available', 'Progressive McJackpots on every spin', '8-level loyalty program'],
-    link: 'https://mcluck.com/',
-    reviewLink: '/casinos/mcluck',
-  },
-  {
-    id: 'wowvegas', name: 'WOW Vegas', emoji: '🌟', rating: 4, reviews: '1.9k',
-    bonus: '1.5 Million WOW Coins + 35 FREE Sweeps Coins',
-    isHot: false, isNew: false,
-    features: ['1,800+ games from top providers', 'Daily spin wheel for free coins', 'Exclusive WOW Originals slots', 'Available in most US states'],
-    link: 'https://www.wowvegas.com/',
-    reviewLink: '/casinos/wowvegas',
-  },
-  {
-    id: 'pulsz', name: 'Pulsz Casino', emoji: '⚡', rating: 4, reviews: '980',
-    bonus: '32.3 FREE Sweeps Coins on Sign Up',
-    isHot: false, isNew: false,
-    features: ['1,000+ slots from top providers', 'Live dealer games available', 'Tournaments and leaderboards', 'No purchase needed for free coins'],
-    link: 'https://www.pulsz.com/',
-    reviewLink: '/casinos/pulsz',
-  },
-  {
-    id: 'fortunecoins', name: 'Fortune Coins', emoji: '🪙', rating: 4, reviews: '750',
-    bonus: '360,000 Fortune Coins + 1,000 Free Sweeps Coins',
-    isHot: false, isNew: false,
-    features: ['2,000+ games library', 'Fast 24-hour payouts', 'Link Facebook for bonus coins', 'Simple and clean interface'],
-    link: 'https://fortunecoins.com/',
-    reviewLink: '/casinos/fortunecoins',
-  },
-  {
-    id: 'high5casino', name: 'High 5 Casino', emoji: '✋', rating: 4, reviews: '890',
-    bonus: '250 Game Coins + 5 FREE Sweeps Coins + 600 Diamonds',
-    isHot: false, isNew: false,
-    features: ['1,000+ slots library', 'Unique Diamond reward currency', 'Progressive jackpot slots', 'Established since 2013'],
-    link: 'https://www.high5casino.com/',
-    reviewLink: '/casinos/high5casino',
-  },
-]
->>>>>>> 0af59427a804b36c3358a6beaf78b08a21ac3f79

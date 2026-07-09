@@ -3,21 +3,12 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const bonuses = [
-<<<<<<< HEAD
   { casino: 'Chumba Casino', emoji: '🍒', bonus: '2 Million Gold Coins + 2 FREE Sweeps Coins', code: 'WELCOME2', link: 'https://www.chumbacasino.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
   { casino: 'LuckyLand Slots', emoji: '🍀', bonus: '7,777 Gold Coins + 10 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.luckylandslots.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
   { casino: 'Pulsz Casino', emoji: '⚡', bonus: '32.3 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.pulsz.com/?ref=YOUR_REF_CODE', expires: 'Limited time', type: 'Sign-up' },
   { casino: 'WOW Vegas', emoji: '🌟', bonus: '1.5M Wow Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.wowvegas.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
   { casino: 'Global Poker', emoji: '♠️', bonus: '5,000 Gold Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.globalpoker.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
   { casino: 'High 5 Casino', emoji: '✋', bonus: '250 Game Coins + 5 FREE Sweeps Coins + 600 Diamonds', code: 'AUTO', link: 'https://www.high5casino.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
-=======
-  { casino: 'Chumba Casino', emoji: '🍒', bonus: '2 Million Gold Coins + 2 FREE Sweeps Coins', code: 'WELCOME2', link: 'https://www.chumbacasino.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'LuckyLand Slots', emoji: '🍀', bonus: '7,777 Gold Coins + 10 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.luckylandslots.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'Pulsz Casino', emoji: '⚡', bonus: '32.3 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.pulsz.com/', expires: 'Limited time', type: 'Sign-up' },
-  { casino: 'WOW Vegas', emoji: '🌟', bonus: '1.5M Wow Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.wowvegas.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'Global Poker', emoji: '♠️', bonus: '5,000 Gold Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.globalpoker.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'High 5 Casino', emoji: '✋', bonus: '250 Game Coins + 5 FREE Sweeps Coins + 600 Diamonds', code: 'AUTO', link: 'https://www.high5casino.com/', expires: 'No expiry', type: 'Sign-up' },
->>>>>>> 0af59427a804b36c3358a6beaf78b08a21ac3f79
 ]
 
 export default function Bonuses() {
