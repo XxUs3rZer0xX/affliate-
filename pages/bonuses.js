@@ -3,78 +3,69 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const bonuses = [
-<<<<<<< HEAD
-  { casino: 'Chumba Casino', emoji: '🍒', bonus: '2 Million Gold Coins + 2 FREE Sweeps Coins', code: 'WELCOME2', link: 'https://www.chumbacasino.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'LuckyLand Slots', emoji: '🍀', bonus: '7,777 Gold Coins + 10 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.luckylandslots.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'Pulsz Casino', emoji: '⚡', bonus: '32.3 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.pulsz.com/?ref=YOUR_REF_CODE', expires: 'Limited time', type: 'Sign-up' },
-  { casino: 'WOW Vegas', emoji: '🌟', bonus: '1.5M Wow Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.wowvegas.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'Global Poker', emoji: '♠️', bonus: '5,000 Gold Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.globalpoker.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'High 5 Casino', emoji: '✋', bonus: '250 Game Coins + 5 FREE Sweeps Coins + 600 Diamonds', code: 'AUTO', link: 'https://www.high5casino.com/?ref=YOUR_REF_CODE', expires: 'No expiry', type: 'Sign-up' },
-=======
-  { casino: 'Chumba Casino', emoji: '🍒', bonus: '2 Million Gold Coins + 2 FREE Sweeps Coins', code: 'WELCOME2', link: 'https://www.chumbacasino.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'LuckyLand Slots', emoji: '🍀', bonus: '7,777 Gold Coins + 10 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.luckylandslots.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'Pulsz Casino', emoji: '⚡', bonus: '32.3 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.pulsz.com/', expires: 'Limited time', type: 'Sign-up' },
-  { casino: 'WOW Vegas', emoji: '🌟', bonus: '1.5M Wow Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.wowvegas.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'Global Poker', emoji: '♠️', bonus: '5,000 Gold Coins + 30 FREE Sweeps Coins', code: 'AUTO', link: 'https://www.globalpoker.com/', expires: 'No expiry', type: 'Sign-up' },
-  { casino: 'High 5 Casino', emoji: '✋', bonus: '250 Game Coins + 5 FREE Sweeps Coins + 600 Diamonds', code: 'AUTO', link: 'https://www.high5casino.com/', expires: 'No expiry', type: 'Sign-up' },
->>>>>>> 0af59427a804b36c3358a6beaf78b08a21ac3f79
+  { casino: 'Stake.us', emoji: '🔥', bonus: '260,000 Gold Coins + 55 Stake Cash + 5% Rakeback', link: 'https://stake.us/?c=us3rzer0', expires: 'No expiry' },
+  { casino: 'McLuck Casino', emoji: '🍀', bonus: '57,500 Gold Coins + 27.5 FREE Sweeps Coins', link: 'https://mcluck.com/', expires: 'No expiry' },
+  { casino: 'WOW Vegas', emoji: '🌟', bonus: '1.5M WOW Coins + 35 FREE Sweeps Coins', link: 'https://www.wowvegas.com/', expires: 'No expiry' },
+  { casino: 'Pulsz Casino', emoji: '⚡', bonus: '32.3 FREE Sweeps Coins on Sign Up', link: 'https://www.pulsz.com/', expires: 'Limited time' },
+  { casino: 'Fortune Coins', emoji: '🪙', bonus: '360,000 Fortune Coins + 1,000 FREE Sweeps Coins', link: 'https://fortunecoins.com/', expires: 'No expiry' },
+  { casino: 'High 5 Casino', emoji: '✋', bonus: '250 Game Coins + 5 FREE Sweeps Coins + 600 Diamonds', link: 'https://www.high5casino.com/', expires: 'No expiry' },
 ]
 
 export default function Bonuses() {
   return (
     <>
       <Head>
-        <title>No Deposit Sweepstakes Casino Bonus Codes July 2026 | Us3rZer0</title>
-        <meta name="description" content="Exclusive no deposit bonus codes for US sweepstakes casinos. Claim free Sweep Coins in July 2026 — no purchase necessary." />
+        <title>No Deposit Casino Bonuses July 2026 | USS Zer0</title>
+        <meta name="description" content="Exclusive no deposit bonuses for US sweepstakes casinos. Claim free Sweep Coins." />
       </Head>
       <Navbar />
-      <section className="py-14 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-10">
-            <span className="text-yellow-400 text-xs font-bold tracking-widest uppercase">Updated July 2026</span>
-            <h1 className="text-4xl font-bold text-white mt-2 mb-3" style={{ fontFamily: 'Georgia, serif' }}>
-              🎁 No Deposit Bonus Codes
-            </h1>
-            <p className="text-gray-400">All bonuses are free to claim. No purchase necessary. Available in most US states.</p>
+      <section style={{ padding: '56px 16px' }}>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '32px' }}>
+            <div style={{ background: '#FFCC00', borderRadius: '20px', padding: '6px 20px', fontFamily: 'Antonio, sans-serif', fontSize: '13px', letterSpacing: '0.2em', color: '#050810', fontWeight: 700 }}>
+              TRANSMISSIONS
+            </div>
+            <div style={{ flex: 1, height: '2px', background: 'linear-gradient(90deg, #FFCC00, transparent)' }} />
+            <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#99CCFF', letterSpacing: '0.15em' }}>
+              UPDATED STARDATE 2026.186
+            </div>
           </div>
 
-          <div className="space-y-4">
-            {bonuses.map((b, i) => (
-              <div key={i} className="rounded-xl p-5" style={{ background: '#1A1A28', border: '1px solid #2A2A3D' }}>
-                <div className="flex flex-col md:flex-row md:items-center gap-4">
-                  <div className="text-3xl">{b.emoji}</div>
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <h3 className="text-white font-bold">{b.casino}</h3>
-                      <span className="text-xs px-2 py-0.5 rounded" style={{ background: '#2A2A3D', color: '#9CA3AF' }}>{b.type}</span>
-                    </div>
-                    <p className="text-yellow-400 font-semibold text-sm">{b.bonus}</p>
-                    <p className="text-gray-500 text-xs mt-1">Expires: {b.expires}</p>
-                  </div>
-                  <div className="flex flex-col items-end gap-2">
-                    {b.code !== 'AUTO' && (
-                      <div className="rounded px-3 py-1 text-sm font-mono font-bold" style={{ background: '#2A2A3D', color: '#F5C842' }}>
-                        Code: {b.code}
+          <h1 style={{ fontFamily: 'Antonio, sans-serif', fontSize: '36px', letterSpacing: '0.1em', color: '#E8F4FF', marginBottom: '8px', textTransform: 'uppercase' }}>
+            No Deposit Bonus Codes
+          </h1>
+          <p style={{ fontFamily: 'Exo 2, sans-serif', fontSize: '14px', color: '#99CCFF', marginBottom: '32px' }}>
+            All bonuses free to claim. No purchase necessary. Available in most US states.
+          </p>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            {bonuses.map((b, i) => {
+              const colors = ['#FF9900','#33CCFF','#FFCC00','#FF6666','#CC99FF','#FF9900']
+              const accent = colors[i % colors.length]
+              return (
+                <div key={i} style={{ background: '#0A0F1E', border: '1px solid #1A2A4A', borderLeft: `4px solid ${accent}`, borderRadius: '0 8px 8px 0', padding: '20px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px', justifyContent: 'space-between' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                        <span style={{ fontSize: '28px' }}>{b.emoji}</span>
+                        <div>
+                          <div style={{ fontFamily: 'Antonio, sans-serif', fontSize: '15px', letterSpacing: '0.1em', color: '#E8F4FF', textTransform: 'uppercase' }}>{b.casino}</div>
+                          <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '10px', color: '#1A2A4A', letterSpacing: '0.1em', marginTop: '2px' }}>EXPIRES: {b.expires}</div>
+                        </div>
                       </div>
-                    )}
-                    <a href={b.link} target="_blank" rel="noopener noreferrer" className="btn-gold text-sm whitespace-nowrap">
-                      Claim Now →
-                    </a>
+                      <a href={b.link} target="_blank" rel="noopener noreferrer" className="btn-lcars" style={{ fontSize: '11px', whiteSpace: 'nowrap' }}>
+                        ENGAGE
+                      </a>
+                    </div>
+                    <div style={{ background: '#050810', border: `1px solid ${accent}30`, borderRadius: '4px', padding: '10px 12px' }}>
+                      <div style={{ fontFamily: 'Antonio, sans-serif', fontSize: '9px', letterSpacing: '0.2em', color: accent, marginBottom: '4px' }}>INCOMING BONUS OFFER</div>
+                      <div style={{ fontFamily: 'Exo 2, sans-serif', fontSize: '13px', color: '#E8F4FF', fontWeight: 600 }}>{b.bonus}</div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 rounded-xl p-6 text-sm text-gray-500" style={{ background: '#12121A', border: '1px solid #2A2A3D' }}>
-            <p className="font-semibold text-gray-400 mb-2">📋 How to Claim Your Bonus</p>
-            <ol className="list-decimal list-inside space-y-1">
-              <li>Click the "Claim Now" button next to your chosen casino</li>
-              <li>Sign up for a free account — no credit card needed</li>
-              <li>Your bonus coins are credited automatically on registration</li>
-              <li>Use Sweeps Coins on slots and table games</li>
-              <li>Redeem winnings via PayPal or bank transfer</li>
-            </ol>
+              )
+            })}
           </div>
         </div>
       </section>
