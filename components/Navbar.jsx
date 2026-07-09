@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div style={{ background: '#FF9900', borderRadius: '20px 0 0 20px', padding: '6px 16px 6px 12px' }}>
             <span style={{ fontFamily: 'Antonio, sans-serif', fontWeight: 700, fontSize: '18px', color: '#050810', letterSpacing: '0.15em' }}>
-              USS ZER0
+              Us3rZer0
             </span>
           </div>
           <div style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#99CCFF', letterSpacing: '0.1em' }}>

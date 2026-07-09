@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>USS Zer0 — Best US Sweepstakes Casinos 2026</title>
+        <title>Us3rZer0 — Best US Sweepstakes Casinos 2026</title>
         <meta name="description" content="Find the best sweepstakes casinos in the USA. Free Sweep Coins, no deposit bonuses, win real cash prizes. Legal in 45+ states." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

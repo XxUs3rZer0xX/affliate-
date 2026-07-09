@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div style={{ background: '#FF9900', borderRadius: '20px 0 0 20px', padding: '6px 16px 6px 12px', display: 'inline-block', marginBottom: '12px' }}>
-              <span style={{ fontFamily: 'Antonio, sans-serif', fontWeight: 700, fontSize: '16px', color: '#050810', letterSpacing: '0.15em' }}>USS ZER0</span>
+              <span style={{ fontFamily: 'Antonio, sans-serif', fontWeight: 700, fontSize: '16px', color: '#050810', letterSpacing: '0.15em' }}>Us3rZer0</span>
             </div>
             <p style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '11px', color: '#99CCFF', lineHeight: 1.8, letterSpacing: '0.05em' }}>
               YOUR GUIDE TO US SWEEPSTAKES CASINOS. HONEST REVIEWS. EXCLUSIVE BONUSES.
